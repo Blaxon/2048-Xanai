@@ -175,7 +175,8 @@ def play():
         elif _input == 'd':
             _matrix = move_right(matrix)
         elif _input != 'q':
-            print('You entered a wrong key.')
+            print('\nYou entered a wrong key.')
+            continue
 
         if _matrix == matrix:
             print('\ninvalid move, nothing changed.')
